@@ -1,0 +1,598 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f6c82a;
+}
+
+/* MOBILE CSS */
+
+.main-container {
+  /* padding: 0 1rem; */
+  margin: 0;
+}
+
+.hero-container__logo-nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.hero-container__logo-wrapper {
+  width: 200px;
+}
+
+.hero-container__logo {
+  width: 70%;
+  height: auto;
+}
+
+.hero-container-nav {
+  width: 100%;
+}
+
+.hero-container-nav-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.hero-container-nav-items a {
+  color: #000000;
+  font-family: Sen;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 0px 10px 0px 0px;
+  font-size: 0.8rem;
+}
+
+.hero-container__hero-image-wrapper {
+  position: relative;
+  /* top: 2rem; */
+  width: 100%;
+}
+
+.hero-container__hero-image {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.hero-container__hero-content {
+  display: flex;
+}
+
+.hero-container__hero-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-container__hero-socials a {
+  width: 10%;
+}
+
+.hero-container__hero-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+  width: 90%;
+}
+
+.hero-container__subtitle-container {
+  width: 30%;
+}
+
+.subtitle {
+  width: 100%;
+  height: auto;
+}
+
+.hero-container__hero-title-container {
+  width: 30%;
+}
+
+.hero-title {
+  width: 130%;
+  height: auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.hero-container__hero-btn-container {
+  width: 30%;
+}
+
+.listen-btn {
+  width: 100%;
+  height: auto;
+}
+
+/* RELEASES */
+
+.releases-container {
+  background: url("images/releases-bg.png") no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.releases-container__releases-bg-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.releases-container__releases-bg {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.releases-container__title-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.releases-container__releases-title {
+  width: 50%;
+  height: auto;
+}
+
+.releases-container__releases-container {
+  display: flex;
+}
+
+.releases-container__releases-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+
+.release-container__release {
+  width: 50%;
+}
+
+.btn-container__releases-btn {
+  width: 30%;
+}
+
+.releases-btn {
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: -220%;
+  padding: 10px;
+}
+
+/* TOUR */
+
+.tour-container {
+  background: url("images/tour-bg.png") no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.tour-container__title-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.tour-container__tour-title {
+  width: 30%;
+  height: auto;
+}
+
+.main-parent {
+  display: flex;
+}
+
+.row-container {
+  display: flex;
+}
+
+.row-container__date-ticket-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-container__column-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-container__row-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.parent-dates-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.dates-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dates-container__date-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.dates-container__date {
+  width: 10%;
+  height: auto;
+}
+
+.dates-container__club {
+  width: 40%;
+  height: auto;
+}
+
+.dates-container__location {
+  width: 30%;
+  height: auto;
+}
+
+.dates-container__tour-line {
+  width: 90%;
+  height: auto;
+}
+
+.tickets-container {
+  display: flex;
+}
+
+.tickets-container__tickets {
+  /* width: 100%; */
+  height: auto;
+}
+
+.tickets-container__vip {
+  /* width: 100%; */
+  height: auto;
+}
+
+.tickets-container__rsvp {
+  /* width: 100%; */
+  height: auto;
+}
+
+.btn-container__tours-btn {
+  width: 30%;
+}
+
+.tours-btn {
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: -220%;
+  padding: 10px;
+}
+
+/* VIDEOS */
+.videos-container {
+  background: url("images/Mask.png") no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.videos-container__title-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.video-container__videos-title {
+  width: 50%;
+  height: auto;
+}
+
+.videos-container__videos-container {
+  display: flex;
+}
+
+.videos-container__videos-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+
+.videos-container__video {
+  width: 110%;
+}
+
+.videos-container__video-text {
+  display: flex;
+}
+
+.videos-container__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+
+.videos-container__video-title {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 10px 0px;
+}
+
+.btn-container__videos-btn {
+  width: 30%;
+}
+
+.videos-btn {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 10px;
+  right: -50%;
+}
+
+/* STORE */
+
+.store-container {
+  padding: 1rem;
+}
+
+.store-container__title-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.store-container__store-title {
+  width: 50%;
+  height: auto;
+}
+
+.store-container__merch-container {
+  display: flex;
+}
+
+.store-container__merch-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.store-container__merch {
+  width: 30%;
+}
+
+.store-container__merch-details-container {
+  display: flex;
+}
+
+.store-container__details-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  /* justify-content: space-evenly; */
+  align-items: flex-end;
+}
+
+.store-container__details {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+
+.store-container__detail {
+  width: 110%;
+}
+
+.store-container__price {
+  width: 30%;
+}
+
+.btn-container__shop-btn {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.shop-btn {
+  width: 30%;
+  float: right;
+  display: flex;
+  padding: 10px 0px 10px 0px;
+}
+
+/* PHOTOS */
+
+.photos-container {
+  background: url("images/tour-bg.png") no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.photos-container__title-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.photos-container__photos-title {
+  width: 50%;
+  height: auto;
+}
+
+.photos-container__photos-container {
+  display: flex;
+}
+
+.releases-container__photos-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.release-container__photo {
+  flex: 1 0 15%;
+  margin: 2px;
+  /* height: 100px; */
+}
+
+.btn-container__photos-btn {
+  width: 30%;
+}
+
+.photos-btn {
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: -220%;
+  padding: 10px;
+}
+
+.some-img-wrapper {
+  width: 20%;
+}
+
+.some-img-wrapper img {
+  width: 100%;
+}
+
+/* SUBSCRIBE */
+.subscribe-container {
+  padding: 1rem;
+  background: url("images/subscribe-bg.png") no-repeat;
+  background-size: cover;
+}
+
+.subscribe-container__title-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.subscribe-container__subscribe-title {
+  width: 65%;
+  height: auto;
+}
+
+/* FORM */
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subscribe-container__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+input ::placeholder {
+  color: #f6c82a;
+}
+
+.subscribe-container__form-placeholder {
+  background: none;
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  height: 40px;
+  color: #f6c82a;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-color: #f6c82a;
+}
+
+.subscribe-container__email-text-container {
+  display: flex;
+}
+
+.subscribe-container__email-text-img-container {
+  display: flex;
+  padding: 10px 0px 0px 0px;
+}
+
+.subscribe-container__email-text {
+  height: 80%;
+}
+
+.subscribe-container__checkbox-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribe-container__checkbox-form-placeholder {
+  font-family: fontello;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #fadf46;
+  font-size: 13px;
+}
+
+.subscribe-container__private-policy-container {
+  display: flex;
+}
+
+.subscribe-container__private-policy-img-container {
+  display: flex;
+  padding: 10px 0px 0px 0px;
+}
+
+.subscribe-container__private-policy {
+  height: 70%;
+}
+
+.btn-container__submit-btn {
+  width: 30%;
+}
+
+.submit-btn {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+/* FOOTER */
+.footer-container__banner {
+  position: relative;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+}
+
+.footer {
+  position: relative;
+  /* top: 0;
+  left: 0; */
+}
+
+.footer-text {
+  position: absolute;
+  top: 14px;
+  width: 100%;
+}
+
+/* DESKTOP CSS */
+
+@media only screen and (max-width: 125px) {
+}
