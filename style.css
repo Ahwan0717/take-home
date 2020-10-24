@@ -569,6 +569,7 @@ input ::placeholder {
 .footer-container__banner {
   position: relative;
   width: 100%;
+  background: black;
 }
 
 .footer {
