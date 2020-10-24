@@ -278,7 +278,7 @@ body {
 /* VIDEOS */
 .videos-container {
   background: url("images/Mask.png") no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   padding: 1rem;
 }
 
@@ -465,7 +465,7 @@ body {
 .subscribe-container {
   padding: 1rem;
   background: url("images/subscribe-bg.png") no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .subscribe-container__title-wrapper {
