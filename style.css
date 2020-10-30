@@ -152,7 +152,7 @@
   background: url("images/releases-bg.png"), url("images/Mask.png");
   background-position: left, right;
   background-repeat: no-repeat, no-repeat;
-  background-size: 85%, 100%;
+  background-size: contain, cover;
   padding: 1rem;
 }
 
